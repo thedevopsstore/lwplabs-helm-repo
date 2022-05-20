@@ -18,7 +18,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.332.3
-    created: "2022-05-19T22:51:36.025412-04:00"
+    created: "2022-05-19T22:56:26.266474-04:00"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -48,7 +48,17 @@ entries:
   myapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-19T22:51:36.028311-04:00"
+    created: "2022-05-19T22:56:26.269509-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 231137672998cfb1f7956bbdd5e6aa03fad0cb3766d3ba80f59b2aa1c0e6c766
+    name: myapp
+    type: application
+    urls:
+    - myapp-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-19T22:56:26.267035-04:00"
     description: A Helm chart for Kubernetes
     digest: 0845469f0935785f9c43137cc449a2f831c0991e30c2a6a9cc58f16d96371b99
     name: myapp
@@ -56,4 +66,4 @@ entries:
     urls:
     - myapp-0.1.1.tgz
     version: 0.1.1
-generated: "2022-05-19T22:51:36.021354-04:00"
+generated: "2022-05-19T22:56:26.262077-04:00"
